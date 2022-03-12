@@ -49,13 +49,15 @@
                 android:layout_marginStart="5dp"
                 android:src="@drawable/ic_search" />
 
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@null"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="5dp"
                 android:layout_toEndOf="@id/ic_search"
-                android:text="Celana Olahraga Pria Pendek" />
+                android:hint="Celana Olahraga Pria Pendek"
+                android:textSize="14sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
