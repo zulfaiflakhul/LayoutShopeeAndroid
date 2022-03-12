@@ -18,7 +18,7 @@
             android:id="@+id/ic_chat"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
             android:src="@drawable/ic_chat"
             app:tint="@color/white" />
@@ -29,7 +29,7 @@
             android:layout_height="30dp"
             android:layout_centerInParent="true"
             android:layout_marginHorizontal="20dp"
-            android:layout_toLeftOf="@+id/ic_chat"
+            android:layout_toStartOf="@+id/ic_chat"
             android:src="@drawable/ic_keranjang"
             app:tint="@color/white" />
 
@@ -165,9 +165,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
                     android:text="00 : 12 :59"
-                    android:layout_toRightOf="@id/text_flashsale"
+                    android:layout_toEndOf="@id/text_flashsale"
                     android:layout_centerVertical="true"
                     android:textColor="@color/white"
                     android:background="@color/black"
@@ -177,8 +177,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginRight="5dp"
-                    android:layout_toLeftOf="@id/ic_kanan"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toStartOf="@id/ic_kanan"
                     android:text="Lihat Lainnya" />
 
                 <ImageView
