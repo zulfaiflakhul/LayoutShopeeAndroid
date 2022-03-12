@@ -83,30 +83,35 @@
             android:background="@color/white"
             android:orientation="vertical">
 
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <include layout="@layout/layout_iklan" />
-            </HorizontalScrollView>
-
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="160dp">
 
                 <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
                     android:background="@color/orange_900" />
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
-                <include layout="@layout/layout_shopeepay" />
+                        <include layout="@layout/layout_iklan" />
+                    </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+
+                    <include layout="@layout/layout_shopeepay" />
+
+                </RelativeLayout>
 
             </RelativeLayout>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp">
+                android:layout_height="wrap_content">
 
                 <include layout="@layout/layout_nav_product" />
             </HorizontalScrollView>
