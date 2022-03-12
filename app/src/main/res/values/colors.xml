@@ -6,6 +6,13 @@
     <color name="red">#FF0019</color>
     <color name="yellow">#FFE600</color>
     <color name="green">#00FF66</color>
+    <color name="green_2">#00AA13</color>
+    <color name="red_2">#EE2737</color>
+    <color name="orange">#F06400</color>
+    <color name="orange_2">#C1FFC69E</color>
+    <color name="pink">#DF1995</color>
+    <color name="blue_2">#00AED6</color>
+    <color name="purple">#93328E</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
