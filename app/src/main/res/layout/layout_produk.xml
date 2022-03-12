@@ -22,4 +22,12 @@
         android:textColor="@color/orange_700"
         android:layout_gravity="center_horizontal"/>
 
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progressTint="@color/orange_900"
+        android:progress="30" />
+
 </LinearLayout>
