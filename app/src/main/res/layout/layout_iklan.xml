@@ -11,16 +11,19 @@
     <ImageView
         android:layout_width="212dp"
         android:layout_height="120dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/iklan_shopee"/>
 
     <ImageView
         android:layout_width="212dp"
         android:layout_height="120dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/iklan_shopee"/>
 
     <ImageView
         android:layout_width="212dp"
         android:layout_height="120dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/iklan_shopee"/>
 
 </LinearLayout>
